@@ -19,7 +19,7 @@ from imagenet_classes import imagenet_class_names
 
 # Define environment variables
 S3_BUCKET = os.environ['S3_BUCKET'] if 'S3_BUCKET' in os.environ else 'eva4'
-MODEL_PATH = os.environ['MODEL_PATH'] if 'MODEL_PATH' in os.environ else 'mobilenetv2.pt'
+MODEL_PATH = os.environ['MODEL_PATH'] if 'MODEL_PATH' in os.environ else 'resnet34.pt'
 
 print('Downloading model...')
 s3 = boto3.client('s3')

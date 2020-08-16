@@ -110,4 +110,3 @@ def classify_image(event, context):
             },
             'body': json.dumps({'error': repr(e)})
         }
-
