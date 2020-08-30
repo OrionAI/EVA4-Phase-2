@@ -3,3 +3,13 @@
 __pycache__
 *.pyc
 .idea
+node_modules
+*.zip
+cache/
+*.pt
+*.pth
+*.pth
+*.dat
+*.tgz
+*.tar
+*.onnx
